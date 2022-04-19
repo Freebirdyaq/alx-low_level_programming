@@ -16,7 +16,7 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 return (0);
 
-if (n==0)
+if (n == 0)
 {
 printf("%i is zero\n", n);
 }
