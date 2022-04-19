@@ -1,8 +1,7 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-/* betty style doc for function main goes there */
+#include <stdio.h>
+
 /**
  * main - Entry point
  *
@@ -11,9 +10,12 @@
 int main(void)
 {
 int n;
-srand(time(0));
-n= rand() - RAND_MAX / 2;
-/* your code goes here */
+
+  srand(time(0));
+  n = rand() - RAND_MAX / 2;
+  /* your code goes here *
+  return (0)
+
 if (n==0)
 {
 printf("%i is zero\n", n);
