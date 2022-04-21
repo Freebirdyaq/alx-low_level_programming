@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 2-strlen.c - returns the length of a string.
+ * _strlen.c - returns the length of a string.
  * by its very length defends itself against risk of being read.
  * @s: input string.
  *
