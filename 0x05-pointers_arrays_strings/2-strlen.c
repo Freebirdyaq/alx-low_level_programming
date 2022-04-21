@@ -3,7 +3,7 @@
 /**
  * 2-strlen.c - returns the length of a string.
  * @s: input string
- *
+ * Description: by its very length defends itself against risk of being read.
  * Return: length of a string.
  */
 
