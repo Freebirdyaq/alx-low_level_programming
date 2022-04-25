@@ -7,23 +7,22 @@
  * Return: to dest.
  */
 
-char *_strcat(char *dest, char *src) {
+char *_strcat(char *dest, char *src)
+{
+	int x, y;
+
+	x = 0;
+
+	while (dest[x] != '\0')
+		x++;
+
+	for (y = 0; src[y] != '\0'; y++)
+	{
+		dest[x] = src[y];
+		x++;
+	}
+
+	dest[x] = src[y];
 	
-	int count = 0;
-	int count2 = 0;
-
-	while (*(dest + count) != '\0')
-	{
-		count++;
-	}
-
-	while (count2 >= 0)
-	{
-		*(dest + count) = *(src + count2);
-		if (*(src + count2) == '\0')
-			break;
-		count++;
-		count2++;
-	}
 	return (dest);
 }
